@@ -1,5 +1,7 @@
 package com.xzit.dubbointerface.user;
 
+import com.xzit.commonObj.model.dto.UserInfoDTO;
+
 public interface UserInfoService {
-    String sayHello(String name);
+   UserInfoDTO getUserInfo(String username);
 }
